@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join Jodi Alarm</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, #5b21b6 0%, #3b2a8c 55%, #123a6b 100%);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: #fff;
+    padding: 24px;
+  }
+  .card {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 20px;
+    padding: 28px 24px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+  }
+  h1 { font-size: 22px; margin: 0 0 6px; }
+  p { font-size: 14px; line-height: 1.5; opacity: 0.85; margin: 0 0 18px; }
+  .code {
+    font-family: ui-monospace, Consolas, monospace;
+    font-size: 22px;
+    letter-spacing: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px;
+    margin: 0 0 18px;
+    word-break: break-all;
+  }
+  a.btn, button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 14px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  a.btn { background: #fff; color: #2b1a6b; }
+  button { background: rgba(255, 255, 255, 0.14); color: #fff; }
+  .hint { font-size: 12px; opacity: 0.65; margin-top: 14px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Jodi Alarm</h1>
+  <p id="intro">Opening the app…</p>
+  <div class="code" id="code">—</div>
+  <a class="btn" id="open" href="#">Open in Jodi Alarm</a>
+  <button id="copy">Copy code</button>
+  <p class="hint">
+    If the app does not open, tap <b>Copy code</b>, open Jodi Alarm and use
+    <b>Join with a code</b>. The app must be installed already.
+  </p>
+</div>
+<script>
+  const params = new URLSearchParams(location.search);
+  const raw = (params.get("code") || "").toUpperCase();
+  const code = raw.replace(/[^A-Z0-9]/g, "");
+  const deep = "jodialarm://join?code=" + encodeURIComponent(raw);
+  const codeEl = document.getElementById("code");
+  const openEl = document.getElementById("open");
+  const intro = document.getElementById("intro");
+
+  if (!code) {
+    intro.textContent = "No code found in this link.";
+    codeEl.style.display = "none";
+    openEl.style.display = "none";
+  } else {
+    codeEl.textContent = raw;
+    openEl.href = deep;
+    intro.textContent = "Tap the button to join this alarm group.";
+    setTimeout(() => { location.href = deep; }, 600);
+  }
+
+  document.getElementById("copy").addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(raw);
+      document.getElementById("copy").textContent = "Copied!";
+      setTimeout(() => { document.getElementById("copy").textContent = "Copy code"; }, 1500);
+    } catch (e) {
+      codeEl.textContent = raw;
+      intro.textContent = "Long-press the code above to copy it.";
+    }
+  });
+</script>
+</body>
+</html>
