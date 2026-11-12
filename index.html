@@ -72,8 +72,10 @@
 <script>
   const params = new URLSearchParams(location.search);
   const raw = (params.get("code") || "").toUpperCase();
+  const name = params.get("name") || "";
   const code = raw.replace(/[^A-Z0-9]/g, "");
-  const deep = "jodialarm://join?code=" + encodeURIComponent(raw);
+  const deep = "jodialarm://join?code=" + encodeURIComponent(raw) +
+    (name ? "&name=" + encodeURIComponent(name) : "");
   const codeEl = document.getElementById("code");
   const openEl = document.getElementById("open");
   const intro = document.getElementById("intro");
