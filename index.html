@@ -3,72 +3,193 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Join Jodi Alarm</title>
+<title>Jodi Alarm — Share Alarms with Family &amp; Friends | Free Android App</title>
+<meta name="description" content="Jodi Alarm is a free, open-source Android app to share alarms with friends, family or your partner. No account, no subscription, no ads, no tracking. Send an alarm from your phone and it rings on every phone in the group.">
+<meta name="keywords" content="Jodi Alarm, share alarm, Android alarm app, family alarm, couple alarm, alarm sharing, free alarm app, no subscription, ntfy, open source">
+<meta name="author" content="muddsarnaeemsiddiqi">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://muddsarnaeemsiddiqi.github.io/jodi-alarm-join/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jodi Alarm — Share Alarms with Family &amp; Friends">
+<meta property="og:description" content="Free Android app to share alarms with friends, family or your partner. No account, no subscription, no ads.">
+<meta property="og:url" content="https://muddsarnaeemsiddiqi.github.io/jodi-alarm-join/">
+<meta property="og:site_name" content="Jodi Alarm">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jodi Alarm — Share Alarms with Family &amp; Friends">
+<meta name="twitter:description" content="Free Android app to share alarms. No account, no subscription, no ads.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Jodi Alarm",
+  "operatingSystem": "Android",
+  "applicationCategory": "UtilitiesApplication",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": "Share alarms with friends, family or your partner. No account, no subscription, no ads, no tracking.",
+  "author": { "@type": "Person", "name": "muddsarnaeemsiddiqi" }
+}
+</script>
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: linear-gradient(160deg, #5b21b6 0%, #3b2a8c 55%, #123a6b 100%);
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     color: #fff;
-    padding: 24px;
+    padding: 24px 16px 60px;
+    line-height: 1.6;
   }
+  .wrap { max-width: 760px; margin: 0 auto; }
   .card {
-    width: 100%;
-    max-width: 420px;
     background: rgba(0, 0, 0, 0.35);
     border: 1px solid rgba(255, 255, 255, 0.16);
     border-radius: 20px;
     padding: 28px 24px;
-    text-align: center;
     backdrop-filter: blur(8px);
+    margin-bottom: 24px;
   }
-  h1 { font-size: 22px; margin: 0 0 6px; }
-  p { font-size: 14px; line-height: 1.5; opacity: 0.85; margin: 0 0 18px; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  h2 { font-size: 20px; margin: 0 0 10px; }
+  h3 { font-size: 16px; margin: 14px 0 6px; }
+  p { font-size: 15px; opacity: 0.9; margin: 0 0 12px; }
+  .lead { font-size: 16px; opacity: 0.95; }
   .code {
     font-family: ui-monospace, Consolas, monospace;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 1px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 12px;
     margin: 0 0 18px;
     word-break: break-all;
+    text-align: center;
   }
   a.btn, button {
-    display: block;
-    width: 100%;
-    padding: 15px;
+    display: inline-block;
+    padding: 14px 20px;
     border-radius: 14px;
     border: 0;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin: 6px 6px 6px 0;
   }
   a.btn { background: #fff; color: #2b1a6b; }
   button { background: rgba(255, 255, 255, 0.14); color: #fff; }
-  .hint { font-size: 12px; opacity: 0.65; margin-top: 14px; }
+  ul { padding-left: 20px; margin: 0 0 12px; }
+  li { margin-bottom: 6px; }
+  .ver { font-weight: 700; color: #ffd166; }
+  .hint { font-size: 13px; opacity: 0.7; margin-top: 14px; }
+  .row { display: flex; flex-wrap: wrap; gap: 6px; }
 </style>
 </head>
 <body>
+<div class="wrap">
+
 <div class="card">
   <h1>Jodi Alarm</h1>
-  <p id="intro">Opening the app…</p>
-  <div class="code" id="code">—</div>
-  <a class="btn" id="open" href="#">Open in Jodi Alarm</a>
-  <button id="copy">Copy code</button>
-  <p class="hint">
-    If the app does not open, tap <b>Copy code</b>, open Jodi Alarm and use
-    <b>Join with a code</b>. The app must be installed already.
+  <p class="lead">Share alarms with friends, family or your partner. <strong>Free. No account. No subscription. No ads. No tracking.</strong></p>
+  <p>Send an alarm from your phone and it rings on every phone in the group. When they snooze or dismiss it, you get a status notification back.</p>
+  <div id="joinBox">
+    <p id="intro">Opening the app…</p>
+    <div class="code" id="code">—</div>
+    <div class="row">
+      <a class="btn" id="open" href="#">Open in Jodi Alarm</a>
+      <button id="copy">Copy code</button>
+    </div>
+    <p class="hint">If the app does not open, tap <b>Copy code</b>, open Jodi Alarm and use <b>Join with a code</b>. The app must be installed already.</p>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Multiple groups</strong> — a separate group, code and alarms for each friend or family member.</li>
+    <li><strong>Send to one person or everyone</strong> — pick a contact chip or the whole group.</li>
+    <li><strong>Scheduled alarms</strong> with an optional message, plus <strong>Ring now</strong> for instant ringing.</li>
+    <li><strong>Delivery confirmation</strong> — see who received your alarm.</li>
+    <li><strong>Delete options</strong> — delete for yourself, for others, or everywhere.</li>
+    <li><strong>Member list</strong> — see everyone who joined a group.</li>
+    <li>Alarm tone, volume, vibration, loop, snooze (5/10/15/20 min).</li>
+    <li>Full-screen alarm that rings even if the app is closed.</li>
+    <li>Zero tracking, zero analytics, zero ads.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>How it works</h2>
+  <p>A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM encryption key. Messages are encrypted on your phone and decrypted on the receiver's phone. The receiver sets an exact alarm via AlarmManager; when it fires, a foreground service plays the tone and opens the alarm screen.</p>
+  <p>Internet is needed only when sending. Alarms ring offline.</p>
+</div>
+
+<div class="card">
+  <h2>What's new</h2>
+  <h3><span class="ver">v1.2.10</span> — in-app update download</h3>
+  <ul>
+    <li>Update now downloads inside the app via DownloadManager (no Chrome).</li>
+  </ul>
+  <h3><span class="ver">v1.2.9</span> — group list fix</h3>
+  <ul>
+    <li>Delete button no longer wraps to a second line in the group list.</li>
+  </ul>
+  <h3><span class="ver">v1.2.8</span> — auto-fill group name</h3>
+  <ul>
+    <li>Joining via a shared link now auto-fills the group name.</li>
+  </ul>
+  <h3><span class="ver">v1.2.7</span> — update check fixed</h3>
+  <ul>
+    <li>In-app update check uses the public channel, works without GitHub login (fixes HTTP 404).</li>
+  </ul>
+  <h3><span class="ver">v1.2.6</span> — check for updates</h3>
+  <ul>
+    <li>Settings → Check for update queries GitHub and offers a one-tap download.</li>
+    <li>Share text now includes the group name.</li>
+  </ul>
+  <h3><span class="ver">v1.2.5</span> — contacts &amp; sender name</h3>
+  <ul>
+    <li>Send to one person or everyone via a contact chip list.</li>
+    <li>Sender name shown on the alarm screen and notification.</li>
+  </ul>
+  <h3><span class="ver">v1.2.4</span> — delete options</h3>
+  <ul>
+    <li>Sender can delete for themselves, for others, or everywhere; receivers delete only their own copy.</li>
+  </ul>
+  <h3><span class="ver">v1.2.3</span> — member list &amp; delivery confirmation</h3>
+  <ul>
+    <li>Group card lists all joined members.</li>
+    <li>Delivery confirmation: see who received your alarm.</li>
+  </ul>
+  <h3><span class="ver">v1.2.2</span> — English UI &amp; no double sound</h3>
+  <ul>
+    <li>Whole app in English.</li>
+    <li>Ring now no longer rings on your own phone unless "Also ring on my phone" is on.</li>
+    <li>No overlapping sound: notification channel is silent, only the ring service plays.</li>
+    <li>WhatsApp share sends a clickable https link.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>Install</h2>
+  <p>1. Download the APK (latest release).</p>
+  <p>2. Install it (allow unknown sources).</p>
+  <p>3. Open the app → enter your name → <b>Create a new group</b> or <b>Join with a code</b>.</p>
+  <p>4. Share the code with the <b>Share</b> button (WhatsApp / email).</p>
+  <p>5. Allow: Exact alarm, Full-screen alarm, Display over other apps, Notifications, Battery optimization off.</p>
+  <p class="hint">Updates install over the old version; your data stays.</p>
+</div>
+
+<div class="card">
+  <h2>Links</h2>
+  <p>
+    <a class="btn" href="https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/latest">Download latest APK</a>
+    <a class="btn" href="https://github.com/muddsarnaeemsiddiqi/jodi-alarm">Source code</a>
   </p>
 </div>
+
+</div>
+
 <script>
   const params = new URLSearchParams(location.search);
   const raw = (params.get("code") || "").toUpperCase();
@@ -81,7 +202,7 @@
   const intro = document.getElementById("intro");
 
   if (!code) {
-    intro.textContent = "No code found in this link.";
+    intro.textContent = "Join a Jodi Alarm group.";
     codeEl.style.display = "none";
     openEl.style.display = "none";
   } else {
