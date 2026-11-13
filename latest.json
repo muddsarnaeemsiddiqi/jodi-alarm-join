@@ -1,7 +1,7 @@
 {
-  "versionCode": 24,
-  "versionName": "1.2.21",
-  "tag": "v1.2.21",
-  "apk": "https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.21/jodi-alarm-v1.2.21.apk",
-  "notes": "Edit/delete alarms and repeat days (Once, Daily, Weekdays, custom days)."
+  "versionCode": 25,
+  "versionName": "1.2.22",
+  "tag": "v1.2.22",
+  "apk": "https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.22/jodi-alarm-v1.2.22.apk",
+  "notes": "Startup permission setup: notifications, exact alarms, battery, full-screen, overlay and DND."
 }

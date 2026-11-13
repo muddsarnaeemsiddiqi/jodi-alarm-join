@@ -32,6 +32,10 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.22 — startup permission setup
+- Permission screen opens automatically at app start and walks through every needed permission.
+- "Allow all permissions" button added in Settings.
+
 ### v1.2.21 — edit, delete and repeat days
 - Tap an alarm to edit time, message and repeat days; Delete button on every card.
 - Frequency: Once, Daily, Weekdays, Weekends or custom Mon–Sun days.
