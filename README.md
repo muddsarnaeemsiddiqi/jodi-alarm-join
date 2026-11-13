@@ -32,6 +32,14 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.23 — custom messages + reliability
+- Custom group messages: send a text to everyone or one member; arrives as a notification with a beep (no alarm screen).
+- Duplicate alarms after reconnects are ignored.
+- Local alarms and missed repeating alarms restored after reboot.
+- One-off alarms can be set for a specific future date.
+- "Test alarm sound" button in Settings.
+- New message notification channel with its own sound.
+
 ### v1.2.22 — startup permission setup
 - Permission screen opens automatically at app start and walks through every needed permission.
 - "Allow all permissions" button added in Settings.
