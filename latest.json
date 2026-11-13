@@ -1,7 +1,1 @@
-{
-  "versionCode": 28,
-  "versionName": "1.2.25",
-  "tag": "v1.2.25",
-  "apk": "https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.25/jodi-alarm-v1.2.25.apk",
-  "notes": "Update check robust to BOM/whitespace."
-}
+{"versionCode":29,"versionName":"1.2.26","tag":"v1.2.26","apk":"https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.26/jodi-alarm-v1.2.26.apk","notes":"Clear delivered/all in sent messages report."}
