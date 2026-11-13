@@ -1,7 +1,7 @@
-{
-  "versionCode": 26,
-  "versionName": "1.2.23",
-  "tag": "v1.2.23",
-  "apk": "https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.23/jodi-alarm-v1.2.23.apk",
-  "notes": "Custom group messages (beep notification), boot restore, date picker, sound test, dedup."
+﻿{
+  "versionCode": 27,
+  "versionName": "1.2.24",
+  "tag": "v1.2.24",
+  "apk": "https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.24/jodi-alarm-v1.2.24.apk",
+  "notes": "Custom message delivery reports (pending / received by)."
 }

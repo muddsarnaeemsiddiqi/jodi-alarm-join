@@ -32,6 +32,10 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.24 — message delivery reports
+- "Sent messages" screen shows pending / received-by status for each custom message.
+- Delivery confirmations arrive automatically.
+
 ### v1.2.23 — custom messages + reliability
 - Custom group messages: send a text to everyone or one member; arrives as a notification with a beep (no alarm screen).
 - Duplicate alarms after reconnects are ignored.
