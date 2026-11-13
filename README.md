@@ -32,6 +32,10 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.25 — update check fix
+- Update check now tolerates a BOM/whitespace in latest.json.
+- GitHub Pages serves files raw (.nojekyll) to avoid encoding changes.
+
 ### v1.2.24 — message delivery reports
 - "Sent messages" screen shows pending / received-by status for each custom message.
 - Delivery confirmations arrive automatically.
