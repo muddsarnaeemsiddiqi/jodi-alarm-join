@@ -32,6 +32,11 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.21 — edit, delete and repeat days
+- Tap an alarm to edit time, message and repeat days; Delete button on every card.
+- Frequency: Once, Daily, Weekdays, Weekends or custom Mon–Sun days.
+- Repeating alarms reschedule automatically after ringing.
+
 ### v1.2.20 — update check fixed
 - "Check for updates" no longer fails with HTTP 403; it reads `latest.json` from GitHub Pages (no rate limit).
 
