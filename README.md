@@ -32,6 +32,9 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.20 — update check fixed
+- "Check for updates" no longer fails with HTTP 403; it reads `latest.json` from GitHub Pages (no rate limit).
+
 ### v1.2.19 — previous colour scheme restored
 - Same new layout as v1.2.18, but the original Material dark colours are back (lavender accents, solid cards, no gradient).
 

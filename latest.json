@@ -1,0 +1,7 @@
+{
+  "versionCode": 23,
+  "versionName": "1.2.20",
+  "tag": "v1.2.20",
+  "apk": "https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.20/jodi-alarm-v1.2.20.apk",
+  "notes": "Fixed \"Check for updates\" failing with HTTP 403."
+}
