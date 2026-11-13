@@ -32,6 +32,15 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.18 — new UI design
+- Whole app UI redesigned to match the new mockup.
+- One pill-style Local/Group switcher (no more duplicate tab row); counts always match the list.
+- Bottom navigation: Alarms, Groups, Settings. Settings is an icon in the top bar.
+- Round + button above the bottom bar for a new local alarm.
+- Alarm cards with big 24-hour time, label, meta line and purple toggle; disabled alarms fade to 50%. Delete is long-press.
+- Group tab: group chips, purple group card with monospace code and Select / Share / Copy / Rename / Delete, "UPCOMING (GROUP)" section, green/amber delivery status, compact Send and Ring buttons.
+- Dark purple gradient theme, cleaner 16dp spacing, scrollable lists with room for the FAB and bottom bar.
+
 ### v1.2.10 — in-app update download
 - Update now downloads inside the app via DownloadManager (no Chrome / browser).
 
