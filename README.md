@@ -32,6 +32,9 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.28 — auto-start direct page
+- Auto-start button now opens the Infinix "Phone Master" auto-start page directly.
+
 ### v1.2.27 — auto-start shortcut
 - New "Auto-start" row in permission setup and Settings that opens the OEM auto-start page (Infinix/Xiaomi/Oppo/Vivo).
 
