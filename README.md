@@ -32,6 +32,9 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.27 — auto-start shortcut
+- New "Auto-start" row in permission setup and Settings that opens the OEM auto-start page (Infinix/Xiaomi/Oppo/Vivo).
+
 ### v1.2.26 — report cleanup
 - "Clear delivered" and "Clear all" buttons in the sent messages report.
 
