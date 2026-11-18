@@ -32,6 +32,12 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.32 - compact settings + shareable log
+- Settings compact: 7 rows; Permissions / Alarm sound / Groups moved into submenus.
+- Snooze is now a small dialog instead of inline chips.
+- Diagnostics gained "Share log" button (shares event log + permission status).
+- No features removed, only reorganized.
+
 ### v1.2.31 - repeating alarm fix
 - Fixed repeating alarms not rescheduling (repeatDays missing in intent extras). Repeating alarms now reschedule and no longer disappear.
 

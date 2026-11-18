@@ -1,1 +1,1 @@
-{"versionCode":34,"versionName":"1.2.31","tag":"v1.2.31","apk":"https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.31/jodi-alarm-v1.2.31.apk","notes":"Fixed repeating alarms not rescheduling (repeatDays missing in intent extras)."}
+{"versionCode":35,"versionName":"1.2.32","tag":"v1.2.32","apk":"https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.32/jodi-alarm-v1.2.32.apk","notes":"Compact settings: Permissions/Sound/Groups submenus, Snooze dialog, shareable diagnostics log."}
