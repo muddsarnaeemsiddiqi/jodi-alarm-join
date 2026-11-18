@@ -32,7 +32,10 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
-### v1.2.28 — auto-start direct page
+### v1.2.31 - repeating alarm fix
+- Fixed repeating alarms not rescheduling (repeatDays missing in intent extras). Repeating alarms now reschedule and no longer disappear.
+
+### v1.2.30 - trace alarm auto-deletion
 - Auto-start button now opens the Infinix "Phone Master" auto-start page directly.
 
 ### v1.2.27 — auto-start shortcut

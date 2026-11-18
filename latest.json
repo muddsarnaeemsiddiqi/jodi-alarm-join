@@ -1,1 +1,1 @@
-{"versionCode":33,"versionName":"1.2.30","tag":"v1.2.30","apk":"https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.30/jodi-alarm-v1.2.30.apk","notes":"Diagnostics traces alarm auto-deletion (expired/rescheduled)."}
+{"versionCode":34,"versionName":"1.2.31","tag":"v1.2.31","apk":"https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.31/jodi-alarm-v1.2.31.apk","notes":"Fixed repeating alarms not rescheduling (repeatDays missing in intent extras)."}
