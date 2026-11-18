@@ -1,1 +1,1 @@
-{"versionCode":32,"versionName":"1.2.29","tag":"v1.2.29","apk":"https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.29/jodi-alarm-v1.2.29.apk","notes":"Diagnostics screen: permission checklist, event log, stuck-notification cleanup, 10s test."}
+{"versionCode":33,"versionName":"1.2.30","tag":"v1.2.30","apk":"https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.30/jodi-alarm-v1.2.30.apk","notes":"Diagnostics traces alarm auto-deletion (expired/rescheduled)."}
