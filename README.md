@@ -32,6 +32,10 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.33 - system back navigation
+- System back button now navigates Settings sub-screens (Permissions/Sound/Groups) one level at a time instead of exiting the app.
+- Snooze and other dialogs close on system back.
+
 ### v1.2.32 - compact settings + shareable log
 - Settings compact: 7 rows; Permissions / Alarm sound / Groups moved into submenus.
 - Snooze is now a small dialog instead of inline chips.
