@@ -32,6 +32,11 @@ A group is one shared code. The code derives an ntfy.sh topic and an AES-GCM enc
 
 ## Releases & changelog
 
+### v1.2.35 - repeating alarm reliability
+- Repeating alarms now reschedule (repeatDays was missing in PendingIntent extras; storage recovery was filtering expired alarms).
+- Switched to setAlarmClock for reliable firing on aggressive OEM ROMs (Infinix XOS).
+- Boot restore now recovers expired repeating alarms.
+
 ### v1.2.34 - system back in permissions/diagnostics
 - System back button now works inside Permissions and Diagnostics screens.
 

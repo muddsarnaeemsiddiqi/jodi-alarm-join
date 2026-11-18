@@ -1,1 +1,1 @@
-{"versionCode":37,"versionName":"1.2.34","tag":"v1.2.34","apk":"https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.34/jodi-alarm-v1.2.34.apk","notes":"System back button now works in Permissions and Diagnostics screens too."}
+{"versionCode":38,"versionName":"1.2.35","tag":"v1.2.35","apk":"https://github.com/muddsarnaeemsiddiqi/jodi-alarm-join/releases/download/v1.2.35/jodi-alarm-v1.2.35.apk","notes":"Repeating alarms now reschedule correctly (repeatDays fix + setAlarmClock for reliable firing)."}
